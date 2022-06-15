@@ -1,0 +1,99 @@
+  .topnav {
+      float: right;
+      text-decoration: none;
+      width:300px;
+    }
+    p {
+      float: left;
+      font-size: 18px;
+      font-family: 'Times New Roman', Times, serif;
+    }
+    .div1 {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-650%, +5%);
+      text-size-adjust: 30px;
+    }
+    .div2{   
+ 
+    float:left;   
+    }
+    .div4{
+      text-decoration: none;
+   font-size: 16px;
+   border: none;
+   padding: 3px;
+    dispaly: inline-block;
+    border-radius:8px;
+    float: center;
+    }
+    body {
+       background-image: url(ntg.jpg);
+      background-cover: cover;
+      
+     }
+     img {   
+      width: 300px;
+      height: 300px;
+      float: right;
+      filter: blur(10px);
+     -webkit-filter: blur(10px);     
+     } 
+     img:hover{
+     opacity: 1;
+     filter: none;
+     
+     }
+     .sticky {
+     position: fixed;
+      top: 0;
+      width: 200px;
+      opacity: 100%;
+      overflow: hidden;
+      float: right;
+     }
+     .sticky  {
+     width: 200px;
+      border: auto;
+      border-radius: 8px;
+      opacity: 100%;
+      float:center;
+     }
+     .dropbtn{     
+      color: rgb(9, 102, 9);
+      width: auto;
+      height: auto;
+     text-decoration: none;
+      font-size: 16px;
+      border-radius: 6px;
+      padding:3px;
+     border: auto;
+     opacity:100%; 
+     float: right;    
+     }
+     center{
+     float:left;
+     }     
+     .dropbtn:hover{
+     color: gray;
+     }
+     #navbar {
+      overflow: hidden;
+     background-color: blue;
+     opacity:100%;
+     }
+     input[type=text] {
+  width: 130px;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+  background-color: white;
+  background-image: url('searchicon.png');
+  background-position: 10px 10px; 
+  background-repeat: no-repeat;
+  padding: 12px 20px 12px 40px;
+  -webkit-transition: width 0.4s ease-in-out;
+  transition: width 0.4s ease-in-out;
+}
