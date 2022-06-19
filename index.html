@@ -1,21 +1,26 @@
  <!DOCTYPE html>
 <head>
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="styl.css">
+  <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css"	rel="stylesheet">
  </head>
 <body>
-  <div class="div2">
- NAYAN
-  </div>
+  <div class="h-full bg-red-100 bg-opacity-100 px-8 pt-16 pb-24 rounded-lg overflow-hidden text-center relative md\:focus\:bg-yellow-100 space-x-0">
+    <div class="shrink-0">
+    <img class="h-12 w-12" src="logo1.svg" alt="logo"> 
+    </div>
+    <div class="sm:text-3xl flex-1 text-2xl text-gray-900 font-medium title-font mb-2 md:w-2/5">
+    NAYAN
+   </div>
+</div>
   <div class="div4">
-    <nav class="dropbtn" id="navbar">
-  <center>
+    <nav class="dropbtn sm:items-right" id="navbar">
+
     <a href="submit.html"  class="dropbtn"target="_blank">HOME </a>
  <a href="" class="dropbtn">Conact</a>            
   <a href="" class="dropbtn">About Us</a> 
-  </center>
-  <form>
-    <input type="text" name="search" placeholder="Search..">
+  
+  <form >
+    <input type="text" name="search" placeholder="Search.." class="p-6 max-w-sm mx-auto bg-white rounded-xl shadow-lg flex items-center ">
   </form>
      
   </div>
@@ -24,10 +29,17 @@
   Hello <br>
   ITS Me Nayan
   </div>
-  <div>
-  <img src="nayan.jpg" alt="NAYAN" value="hello">
- </div>
- <br>
- <div>
+   <div class="py-8 px-8 max-w-sm mx-auto bg-white rounded-xl shadow-lg space-y-2 sm:py-4 sm:flex sm:items-right sm:space-y-0 sm:space-x-6">
+  <img src="nayan.jpg" alt="NAYAN"  class="clear-right mx-auto h-24 rounded">
+  <p class="text-xl sm:flex sm:items-center">Learner</p> 
+     <br>
+  <button  class="rounded-2xl text-2xl sm:items-center bg-white text-black border-black-900 align-left focus:text-blue-200 hover:text-white  hover:bg-black hover:border-none">OUR TEAM
+   <a href="ourteam.html"></a>
+  </button>
+   </div>
+  <br>
+ <div class="flex-col-reverse">
+  <div>01</div>
+  <div>02</div>
  
  </div>

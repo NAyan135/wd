@@ -1,7 +1,7 @@
   .topnav {
       float: right;
       text-decoration: none;
-      width:300px;
+      width:100%;
     }
     p {
       float: left;
@@ -33,7 +33,7 @@
       background-cover: cover;
       
      }
-     img {  
+     .div6{  
       position: absolute;
       top: 50%; 
       right: 50%;
@@ -108,4 +108,8 @@
 input[type=text]:focus {
   width:50%;
 
+}
+.div5{
+  align-items: center;
+  mask-image: url(nayan.jpg);
 }
