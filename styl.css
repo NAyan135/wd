@@ -77,7 +77,8 @@
       padding:3px;
      border: auto;
      opacity:100%; 
-     float: right;    
+     font-size: 19px;  
+     text-align: right; 
      }
      center{
      float:left;
